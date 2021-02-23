@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Terrazza</title>
+    <script src="https://kit.fontawesome.com/2ec4b6d9c2.js" crossorigin="anonymous"></script>
+    <!-- TODO: importar desde CSS y no desde el link de abajo -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="tm-container">
+        <div class="tm-row">
+            <!-- Site Header -->
+            <div class="tm-left">
+                <div class="tm-left-inner">
+                    <div class="tm-site-header">
+                        <i class="fas fa-coffee fa-3x tm-site-logo"></i>
+                        <h1 class="tm-site-name">La Terrazza</h1>
+                    </div>
+                    <nav class="tm-site-nav">
+                        <ul class="tm-site-nav-ul">
+                            <li class="tm-page-nav-item">
+                                <a href="#drink" class="tm-page-link active">
+                                    <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                                    <span>Cafetería</span>
+                                </a>
+                            </li>
+                            <li class="tm-page-nav-item">
+                                <a href="#about" class="tm-page-link">
+                                    <i class="fas fa-users tm-page-link-icon"></i>
+                                    <span>Sobre Nosotros</span>
+                                </a>
+                            </li>
+                            <li class="tm-page-nav-item">
+                                <a href="#special" class="tm-page-link">
+                                    <i class="fas fa-glass-martini tm-page-link-icon"></i>
+                                    <span>Especialidades</span>
+                                </a>
+                            </li>
+                            <li class="tm-page-nav-item">
+                                <a href="#contact" class="tm-page-link">
+                                    <i class="fas fa-comments tm-page-link-icon"></i>
+                                    <span>Contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="tm-right">
+                <main class="tm-main">
+                    <div id="drink" class="tm-page-content">
+                        <!-- Drink Menu Page -->
+                        <nav class="tm-black-bg tm-drinks-nav">
+                            <ul>
+                                <li>
+                                    <a href="#" class="tm-tab-link active" data-id="cold">Fríos</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tm-tab-link" data-id="hot">Calientes</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="tm-tab-link" data-id="juice">Jugos de Frutas</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <div id="cold" class="tm-tab-content">
+                            <div class="tm-list">
+                                <div class="tm-list-item">
+                                    <img src="img/iced-americano.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Iced Americano<span class="tm-list-item-price">$10.25</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/iced-cappuccino.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Iced Cappuccino<span class="tm-list-item-price">$12.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/iced-espresso.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Iced Espresso<span class="tm-list-item-price">$14.25</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/iced-latte.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Iced Latte<span class="tm-list-item-price">$11.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="hot" class="tm-tab-content">
+                            <div class="tm-list">
+
+                                <div class="tm-list-item">
+                                    <img src="img/hot-americano.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Hot Americano<span class="tm-list-item-price">$8.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/hot-cappuccino.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Hot Cappuccino<span class="tm-list-item-price">$9.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/hot-espresso.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Hot Espresso<span class="tm-list-item-price">$7.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/hot-latte.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Hot Latte<span class="tm-list-item-price">$6.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div id="juice" class="tm-tab-content">
+                            <div class="tm-list">
+                                <div class="tm-list-item">
+                                    <img src="img/smoothie-1.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Strawberry Smoothie<span class="tm-list-item-price">$12.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/smoothie-2.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Red Berry Smoothie<span class="tm-list-item-price">$14.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/smoothie-3.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Pineapple Smoothie<span class="tm-list-item-price">$16.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                                <div class="tm-list-item">
+                                    <img src="img/smoothie-4.png" alt="Image" class="tm-list-item-img">
+                                    <div class="tm-black-bg tm-list-item-text">
+                                        <h3 class="tm-list-item-name">Spinach Smoothie<span class="tm-list-item-price">$18.50</span></h3>
+                                        <p class="tm-list-item-description">Agregar descripción corta del producto.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIN MENU DE CAFETERÍA -->
+                    </div>
+
+                    <!-- SOBRE NOSOTROS -->
+                    <div id="about" class="tm-page-content">
+                        <div class="tm-black-bg tm-mb-20 tm-about-box-1">
+                            <h2 class="tm-text-primary tm-about-header">Sobre La Terrazza</h2>
+                            <div class="tm-list-item tm-list-item-2">
+                                <img src="img/about-1.png" alt="Image" class="tm-list-item-img tm-list-item-img-big">
+                                <div class="tm-list-item-text-2">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tenetur earum, velit magnam ut reiciendis natus vel minima asperiores minus.</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nisi, ipsum, non quae sequi officiis voluptas minus doloribus culpa facere nam dicta!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tm-black-bg tm-mb-20 tm-about-box-2">
+                            <div class="tm-list-item tm-list-item-2">
+                                <div class="tm-list-item-text-2">
+                                    <h2 class="tm-text-primary">Nuestros Comienzos</h2>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, non.</p>
+                                </div>
+                                <img src="img/about-2.png" alt="Image" class="tm-list-item-img tm-list-item-img-big tm-img-right">
+                            </div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim voluptatibus iste tempore totam.</p>
+                        </div>
+                    </div>
+                    <!-- FIN SOBRE NOSOTROS -->
+
+                    <!-- ESPECIALIDADES -->
+                    <div id="special" class="tm-page-content">
+                        <div class="tm-special-items">
+                            <div class="tm-black-bg tm-special-item">
+                                <img src="img/special-01.jpg" alt="Image">
+                                <div class="tm-special-item-description">
+                                    <h2 class="tm-text-primary tm-special-item-title">Special One</h2>
+                                    <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
+                                </div>
+                            </div>
+                            <div class="tm-black-bg tm-special-item">
+                                <img src="img/special-02.jpg" alt="Image">
+                                <div class="tm-special-item-description">
+                                    <h2 class="tm-text-primary tm-special-item-title">Second Item</h2>
+                                    <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
+                                </div>
+                            </div>
+                            <div class="tm-black-bg tm-special-item">
+                                <img src="img/special-03.jpg" alt="Image">
+                                <div class="tm-special-item-description">
+                                    <h2 class="tm-text-primary tm-special-item-title">Third Special Item</h2>
+                                    <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
+                                </div>
+                            </div>
+                            <div class="tm-black-bg tm-special-item">
+                                <img src="img/special-04.jpg" alt="Image">
+                                <div class="tm-special-item-description">
+                                    <h2 class="tm-text-primary tm-special-item-title">Special Item Fourth</h2>
+                                    <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
+                                </div>
+                            </div>
+                            <div class="tm-black-bg tm-special-item">
+                                <img src="img/special-05.jpg" alt="Image">
+                                <div class="tm-special-item-description">
+                                    <h2 class="tm-text-primary tm-special-item-title">Sixth Sense</h2>
+                                    <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
+                                </div>
+                            </div>
+                            <div class="tm-black-bg tm-special-item">
+                                <img src="img/special-06.jpg" alt="Image">
+                                <div class="tm-special-item-description">
+                                    <h2 class="tm-text-primary tm-special-item-title">Seventh Item</h2>
+                                    <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- FIN ESPECIALIDADES -->
+
+                    <!-- CONTACTO -->
+                    <div id="contact" class="tm-page-content">
+                        <div class="tm-black-bg tm-contact-text-container">
+                            <h2 class="tm-text-primary">Contáctenos</h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolor, illum molestias omnis explicabo ratione doloribus placeat nihil reprehenderit totam facere ea, minima, libero suscipit? Debitis fugit nihil sapiente id?</p>
+                        </div>
+                        <div class="tm-black-bg tm-contact-form-container tm-align-right">
+                            <form action="" method="POST" id="contact-form">
+                                <div class="tm-form-group">
+                                    <input type="text" name="name" class="tm-form-control" placeholder="Nombre" required="" />
+                                </div>
+                                <div class="tm-form-group">
+                                    <input type="email" name="email" class="tm-form-control" placeholder="Correo electrónico" required="" />
+                                </div>
+                                <div class="tm-form-group tm-mb-30">
+                                    <textarea rows="6" name="message" class="tm-form-control" placeholder="Mensaje" required=""></textarea>
+                                </div>
+                                <div>
+                                    <button type="submit" class="tm-btn-primary tm-align-right">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- FIN CONTACTO -->
+                </main>
+            </div>
+        </div>
+        <footer class="tm-site-footer">
+            <p class="tm-black-bg tm-footer-text">La Terrazza &copy; Todos los derechos reservados</p>
+        </footer>
+    </div>
+
+    <!-- Background video -->
+    <div class="tm-video-wrapper">
+        <i id="tm-video-control-button" class="fas fa-pause"></i>
+        <video autoplay muted loop id="tm-video">
+          <source src="video/wave-cafe-video-bg.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
