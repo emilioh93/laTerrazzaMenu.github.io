@@ -222,7 +222,7 @@ h2 {
 }
 
 .tm-site-footer {
-    margin-top: 15px;
+    margin-top: 80px;
 }
 
 .tm-footer-text {
@@ -287,7 +287,7 @@ h2 {
 }
 
 
-/* Special */
+/* ESPECIALIDADES */
 
 .tm-special-items {
     display: flex;
@@ -296,7 +296,7 @@ h2 {
 }
 
 .tm-special-item {
-    max-width: 320px;
+    max-width: 300px;
     margin: 30px 10px;
 }
 

@@ -18,7 +18,7 @@
     <div class="tm-container">
         <div class="tm-row">
             <!-- HEADER -->
-            <div class="tm-left">
+            <div class="tm-left text-center d-flex justify-content-center">
                 <div class="tm-left-inner">
                     <div class="tm-site-header">
                         <!-- <i class="fas fa-coffee fa-3x tm-site-logo"></i> -->
@@ -56,10 +56,10 @@
                     </nav>
                 </div>
             </div>
-            <div class="tm-right">
+            <div class="tm-right d-flex justify-content-center">
                 <main class="tm-main">
                     <div id="drink" class="tm-page-content">
-                        <!-- Drink Menu Page -->
+                        <!-- CAFETERÍA -->
                         <nav class="tm-black-bg tm-drinks-nav">
                             <ul>
                                 <li>
@@ -207,42 +207,42 @@
                     <div id="special" class="tm-page-content">
                         <div class="tm-special-items">
                             <div class="tm-black-bg tm-special-item">
-                                <img src="img/special-01.jpg" alt="Image">
+                                <img src="img/special-01.jpg" alt="Image" class="w-100">
                                 <div class="tm-special-item-description">
                                     <h2 class="tm-text-primary tm-special-item-title">Special One</h2>
                                     <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
                                 </div>
                             </div>
                             <div class="tm-black-bg tm-special-item">
-                                <img src="img/special-02.jpg" alt="Image">
+                                <img src="img/special-02.jpg" alt="Image" class="w-100">
                                 <div class="tm-special-item-description">
                                     <h2 class="tm-text-primary tm-special-item-title">Second Item</h2>
                                     <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
                                 </div>
                             </div>
                             <div class="tm-black-bg tm-special-item">
-                                <img src="img/special-03.jpg" alt="Image">
+                                <img src="img/special-03.jpg" alt="Image" class="w-100">
                                 <div class="tm-special-item-description">
                                     <h2 class="tm-text-primary tm-special-item-title">Third Special Item</h2>
                                     <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
                                 </div>
                             </div>
                             <div class="tm-black-bg tm-special-item">
-                                <img src="img/special-04.jpg" alt="Image">
+                                <img src="img/special-04.jpg" alt="Image" class="w-100">
                                 <div class="tm-special-item-description">
                                     <h2 class="tm-text-primary tm-special-item-title">Special Item Fourth</h2>
                                     <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
                                 </div>
                             </div>
                             <div class="tm-black-bg tm-special-item">
-                                <img src="img/special-05.jpg" alt="Image">
+                                <img src="img/special-05.jpg" alt="Image" class="w-100">
                                 <div class="tm-special-item-description">
                                     <h2 class="tm-text-primary tm-special-item-title">Sixth Sense</h2>
                                     <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
                                 </div>
                             </div>
                             <div class="tm-black-bg tm-special-item">
-                                <img src="img/special-06.jpg" alt="Image">
+                                <img src="img/special-06.jpg" alt="Image" class="w-100">
                                 <div class="tm-special-item-description">
                                     <h2 class="tm-text-primary tm-special-item-title">Seventh Item</h2>
                                     <p class="tm-special-item-text">Agregar descripción corta del producto.</p>
@@ -258,7 +258,7 @@
                             <h2 class="tm-text-primary">Contáctenos</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad dolor, illum molestias omnis explicabo ratione doloribus placeat nihil reprehenderit totam facere ea, minima, libero suscipit? Debitis fugit nihil sapiente id?</p>
                         </div>
-                        <div class="tm-black-bg tm-contact-form-container tm-align-right">
+                        <div class="tm-black-bg tm-contact-form-container">
                             <form action="" method="POST" id="contact-form">
                                 <div class="tm-form-group">
                                     <input type="text" name="name" class="tm-form-control" placeholder="Nombre" required="" />
@@ -270,7 +270,7 @@
                                     <textarea rows="6" name="message" class="tm-form-control" placeholder="Mensaje" required=""></textarea>
                                 </div>
                                 <div>
-                                    <button type="submit" class="tm-btn-primary tm-align-right">Enviar</button>
+                                    <button type="submit" class="tm-btn-primary">Enviar</button>
                                 </div>
                             </form>
                         </div>
@@ -279,22 +279,22 @@
                 </main>
             </div>
         </div>
-        <footer class="tm-site-footer">
+        <footer class="tm-site-footer d-flex justify-content-center">
             <p class="tm-black-bg tm-footer-text">La Terrazza &copy; Todos los derechos reservados</p>
         </footer>
     </div>
 
-    <!-- Background video -->
+    <!-- VIDEO DE FONDO -->
     <div class="tm-video-wrapper">
-        <i id="tm-video-control-button" class="fas fa-pause"></i>
+        <i id="tm-video-control-button" class="fas fa-pause d-none"></i>
         <video autoplay muted loop id="tm-video">
           <source src="video/wave-cafe-video-bg.mp4" type="video/mp4">
       </video>
     </div>
 
-    <script src="js/popper.min.js"></script>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
     <script src="js/app.js"></script>
 </body>
 
