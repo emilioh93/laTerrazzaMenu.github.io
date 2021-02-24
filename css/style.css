@@ -29,9 +29,14 @@ nav>ul>li {
 }
 
 a {
-    color: #f3d39c;
+    color: white;
     text-decoration: none;
     transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #a2561d;
+    font-weight: bold;
 }
 
 p {
@@ -226,7 +231,7 @@ h2 {
 }
 
 .tm-footer-text {
-    padding: 10px 65px 10px 20px;
+    padding: 10px 20px 10px 20px;
     display: inline-block;
 }
 
@@ -309,7 +314,12 @@ h2 {
 }
 
 
-/* Contact */
+/* CONTACTO */
+
+.list-group-item {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px solid rgba(0, 0, 0, 0)
+}
 
 .tm-contact-text-container {
     padding: 45px 50px;
@@ -317,7 +327,6 @@ h2 {
 }
 
 .tm-contact-form-container {
-    max-width: 460px;
     padding: 40px 50px;
     box-sizing: border-box;
 }
@@ -370,7 +379,7 @@ h2 {
 }
 
 .tm-btn-primary:hover {
-    color: #f3d39c;
+    color: white;
     background-color: #a2561d;
 }
 
