@@ -1,11 +1,3 @@
-/*
-
-Tooplate 2121 Wave Cafe
-
-https://www.tooplate.com/view/2121-wave-cafe
-
-*/
-
 html {
     scroll-behavior: smooth;
 }
@@ -96,6 +88,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 5px;
 }
 
 .tm-site-logo {
@@ -131,6 +124,7 @@ h2 {
     text-decoration: none;
     align-items: center;
     font-size: 1.2rem;
+    border-radius: 5px;
 }
 
 .tm-page-link:hover,
@@ -148,6 +142,7 @@ h2 {
 .tm-black-bg {
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
+    border-radius: 5px;
 }
 
 .tm-drinks-nav>ul>li {
@@ -164,6 +159,7 @@ h2 {
 
 .tm-drinks-nav {
     height: 80px;
+    border-radius: 5px;
 }
 
 .tm-main {
@@ -199,6 +195,7 @@ h2 {
     width: 160px;
     height: 160px;
     background-color: #099;
+    border-radius: 5px;
 }
 
 .tm-list-item-img-big {
@@ -210,6 +207,7 @@ h2 {
 .tm-list-item-text {
     padding: 20px 25px;
     flex: 1;
+    border-radius: 5px;
 }
 
 .tm-list-item-text-2 {
@@ -233,6 +231,7 @@ h2 {
 .tm-footer-text {
     padding: 10px 20px 10px 20px;
     display: inline-block;
+    border-radius: 5px;
 }
 
 .tm-footer-link {
@@ -281,10 +280,12 @@ h2 {
 
 .tm-about-box-1 {
     padding: 40px 30px 50px 0;
+    border-radius: 5px;
 }
 
 .tm-about-box-2 {
     padding: 50px 40px 30px;
+    border-radius: 5px;
 }
 
 .tm-about-header {
