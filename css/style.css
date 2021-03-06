@@ -232,6 +232,8 @@ h2 {
     padding: 10px 20px 10px 20px;
     display: inline-block;
     border-radius: 5px;
+    text-align: center;
+    font-size: small;
 }
 
 .tm-footer-link {
